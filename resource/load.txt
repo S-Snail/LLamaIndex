@@ -1,0 +1,4 @@
+最容易使用的阅读器是我们的 SimpleDirectoryReader，它从给定目录中的每个文件创建文档。
+它内置于 LlamaIndex 中，可以读取多种格式，包括 Markdown、PDF、Word 文档、PowerPoint 幻灯片、图像、音频和视频。
+LlamaIndex 是上下文增强的 LLM 应用程序的框架。
+LlamaIndex本身并不限制你如何使用LLM，它的核心价值在于让使用LLM变得更加容易，特别是当你需要LLM理解和使用你自己的数据时。
