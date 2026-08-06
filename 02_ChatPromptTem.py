@@ -79,7 +79,7 @@ fmt_prompt = partial_prompt_tmpl.format(
 print(fmt_prompt)
 
 print("-" * 100)
-# ----------------- 另一种语言
+# ----------------- 另一种语言：JinJa2
 prompt = RichPromptTemplate(
     """
     {% chat role = "system" %}
