@@ -1,5 +1,6 @@
 """
-# SimpleFileNodeParser: 一个智能的调度器，可以与 FlatReader 结合使用，根据文件扩展名自动选择最合适的特定文件解析器（如 MarkdownNodeParser, JSONNodeParser）。
+    Node
+# 1. SimpleFileNodeParser: 一个智能的调度器，可以与 FlatReader 结合使用，根据文件扩展名自动选择最合适的特定文件解析器（如 MarkdownNodeParser, JSONNodeParser）。
     - HTMLNodeParser: 使用 beautifulsoup 库解析原始 HTML 内容，可以指定要提取文本的 HTML 标签。
     - JSONNodeParser: 用于解析原始 JSON 数据，将其中的文本内容转换为节点。
     - MarkdownNodeParser: 专门用于解析 Markdown 格式的文本，能够理解 Markdown 的结构
